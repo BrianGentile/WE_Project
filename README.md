@@ -23,7 +23,7 @@ npm install --global yarn
 
 Cloner le projet puis mettez vous dans ce dernier.
 ```bash
-$ git clone https://github.com/BrianGentile/WE_Project
+$ git clone https://github.com/BrianGentile/WE_Project.git
 
 $ cd WE_Project
 ```
@@ -40,7 +40,7 @@ $ yarn
 #Lance l'API
 $ yarn start
 ```
-Optionnel: A ouvrir dans un navigateur a l'adresse: "localhost:3001"
+Optionnel: A ouvrir dans un navigateur à l'adresse: "localhost:3001"
 
 
 Pour le frontend:
@@ -51,7 +51,7 @@ $ yarn
 
 $ yarn start
 ```
-A ouvrir dans un navigateur a l'adresse: "localhost:4200"
+A ouvrir dans un navigateur à l'adresse: "localhost:4200"
 
 ## 2. Ajout d'un composant angular
 
