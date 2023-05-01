@@ -1,185 +1,71 @@
-<h1 align="center">
-	<img alt="Product list logo" src="https://github.com/eltonlazzarin/angular-products-crud/blob/main/frontend/src/assets/svg/checklist.svg" height="67px" width="71px" />
-</h1>
+# Compte-rendu Projet We
 
-<h3 align="center">
-  Simple products project build with Angular 9
-</h3>
+Auteurs: Gentile Brian & Gombert Gwenael
+-
 
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/eltonlazzarin/angular-products-crud">
+cf readme du projet de base pour voir l'etat de base du projet.
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eltonlazzarin/angular-products-crud">
+## 1. Setup du projet
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/angular-products-crud">
+### Requirements:
+nodejs version: 16.19.1
+npm version: 8.19.3
 
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/angular-products-crud">
-  
-  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/angular-products-crud">
-</p>
+Ce sont les versions que nous avons utiliser pour le projet. A noter que des versions plus récentes ne fonctionneront pas, c'est ce qui nous est arrivé et nous avions du changer de version de nodejs.
+Vous pouvez utilisez nvm sous Linux pour changer la version de nodejs que vous utilisez ou nvm-windows sous Windows qui est disponible sur github:
+https://github.com/coreybutler/nvm-windows
 
-<p align="center">
-  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-backend-technologies">Backend Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-backend-getting-started">Backend Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute-backend">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-backend-license">Backend License</a>
-</p>
-
-<p align="center">
-  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-  <a href="#-frontend-technologies">Frontend Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-frontend-getting-started">Frontend Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute-frontend">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-frontend-license">Frontend License</a>
-</p>
-
-## 👨🏻‍💻 About the project
-
-<h1 align="center">
-	<img alt="Project Screenshots" src="https://github.com/eltonlazzarin/angular-products-crud/blob/main/screenshots/angular-project-crud.gif" />
-</h1>
-
-<p>This application consists of a simple product CRUD created from my studies regarding Angular 9, so with it it is possible to list, create, update and delete products coming from a fake API.</p>
-
-## 🚀 Backend Technologies
-
-Technologies that I used to develop this api
-
-- [Node.js](https://nodejs.org/en)
-- [JSON-Server](https://github.com/typicode/json-server)
-- [VS Code](https://code.visualstudio.com)
-
-## 💻 Backend getting started
-
-### Requirements
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-
-**Clone the project and access the folder**
-
+Installer ensuite yarn avec la commande suivante:
 ```bash
-$ git clone https://github.com/eltonlazzarin/angular-products-crud.git
+npm install --global yarn
+```
+### Lancement du projet
 
-$ cd angular-products-crud
+Cloner le projet puis mettez vous dans ce dernier.
+```bash
+$ git clone https://github.com/BrianGentile/WE_Project
 
-$ cd backend
+$ cd WE_Project
 ```
 
-**Follow the steps below**
+
+La partie backend n'est pas utile à lancer pour voir nos modifications mais voici les instructions pour la lancer:
 
 ```bash
-# Install the dependencies
-$ yarn
-
-# Run the API
-$ yarn start
-```
-
-## 🤔 How to contribute backend
-
-**Follow the steps below**
-
-```bash
-# Clone your fork
-$ git clone https://github.com/eltonlazzarin/angular-products-crud.git
-
-$ cd angular-products-crud
-
 $ cd backend
 
-# Create a branch with your feature
-$ git checkout -b your-feature
-
-# Make the commit with your changes
-$ git commit -m 'feat: Your new feature'
-
-# Send the code to your remote branch
-$ git push origin your-feature
-```
-
-After your pull request is merged, you can delete your branch
-
-## 📝 Backend License
-
-This project is under the MIT license. See the [LICENSE](https://github.com/eltonlazzarin/angular-products-crud/blob/master/LICENSE) for more information.
-
-## 🚀 Frontend Technologies
-
-Technologies that I used to develop this frontend app
-
-- [Angular 9](https://angular.io/docs)
-- [TypeScript](https://www.typescriptlang.org)
-- [@angular/animations](https://angular.io/guide/animations)
-- [@angular/cdk](https://material.angular.io/guide/getting-started)
-- [@angular/common](https://angular.io/api/common/http)
-- [@angular/core](https://angular.io/api/core)
-- [@angular/forms](https://angular.io/guide/forms-overview)
-- [@angular/router](https://angular.io/guide/router)
-- [RxJS](https://angular.io/guide/rx-library)
-- [Zone.js](https://github.com/angular/angular/tree/master/packages/zone.js/)
-- [VS Code](https://code.visualstudio.com)
-
-## 💻 Frontend getting started
-
-### Requirements
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-- [Angular/cli](https://angular.io/cli)
-
-**Clone the project and access the folder**
-
-```bash
-$ git clone https://github.com/eltonlazzarin/angular-products-crud.git
-
-$ cd angular-products-crud
-
-$ cd frontend
-```
-
-**Follow the steps below**
-
-```bash
-# Install the dependencies
+#Installe les dependances
 $ yarn
 
-# Run the web app
+#Lance l'API
 $ yarn start
-
-# Access application on your browser
-$ http://localhost:4200
 ```
+Optionnel: A ouvrir dans un navigateur a l'adresse: "localhost:3001"
 
-## 🤔 How to contribute frontend
 
-**Follow the steps below**
-
+Pour le frontend:
 ```bash
-# Clone your fork
-$ git clone https://github.com/eltonlazzarin/angular-products-crud.git
-
-$ cd angular-products-crud
-
 $ cd frontend
 
-# Create a branch with your feature
-$ git checkout -b your-feature
+$ yarn 
 
-# Make the commit with your changes
-$ git commit -m 'feat: Your new feature'
-
-# Send the code to your remote branch
-$ git push origin your-feature
+$ yarn start
 ```
+A ouvrir dans un navigateur a l'adresse: "localhost:4200"
 
-After your pull request is merged, you can delete your branch
+## 2. Ajout d'un composant angular
 
-## 📝 Frontend License
+Nous avons ajouté un composant "catFact" qui va afficher les données reçues d'une API. Nous nous sommes beaucoup inspiré du travail déjà réalisé par l'auteur du projet et nous avons crée un troisième onglet que l'on peut cliquer et qui va nous envoyer vers la page où l'on va afficher les données.
 
-This project is under the MIT license. See the [LICENSE](https://github.com/eltonlazzarin/angular-products-crud/blob/master/LICENSE) for more information.
+![](images/newComponent.png)
 
----
+Nous avons chercher des API dans le même esprit que pokeAPI et nous avons trouver le site https://apipheny.io/free-api. C'est un site qui recense des API gratuites et sans connexion.
+(Nous pensons d'ailleurs que c'est un meilleur site que ceux que vous nous avez recommandé car la plupart des APIs de ces sites nous oblige à nous connecter ce qui rajoute de la difficulté)
 
-Made with ♥ by Elton Lazzarin :wave: [Get in touch!](https://www.linkedin.com/in/eltonlazzarin/)
+Nous avons choisi https://catfact.ninja. C'est une API qui envoie des faits sur les chats et nous avons choisi de faire une requête GET pour avoir un fait aléatoire. Ce qui veut dire que vous allez avoir un fait aléatoire à chaque fois que vous allez sur la page ou que vous l'actualisez.
+
+![](images/fact1.png)
+
+![](images/fact2.png)
+
+
